@@ -1,16 +1,44 @@
-# ava
+# 🤖 AVA – Your Personal Voice Assistant
 
-AVA is the Voice Assistant App.
+AVA is a smart voice assistant app built with **Flutter + AI (Gemini API)**. It listens to your commands, replies back using text-to-speech, and even formats its answers beautifully with Markdown!
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🧠 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🎤 Voice input using speech-to-text
+- 🤖 AI-powered responses via Gemini
+- 🗣️ Realistic speech using text-to-speech
+- ✨ Animated modern UI (Flutter Animate)
+- 🛑 Stop AVA mid-speech with a button
+- 📝 Markdown formatting for text output
+- 📱 MVVM architecture for clean code
+- 🔜 Coming soon: WhatsApp, Call, SMS & Reminders
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+| Home Screen | Listening | AI Response |
+|-------------|-----------|-------------|
+| ![home](lib/assets/pic2.jpg) | ![mic](lib/assets/pic1.jpg) | ![response](lib/assets/pic2.jpg) |
+
+> Make sure your screenshot images are placed in `assets/screenshots/` folder and added in `pubspec.yaml`.
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+- Flutter SDK installed
+- Android Studio / VS Code
+- Google Gemini API key (for AI)
+
+### 🛠️ How to Run
+
+```bash
+git clone https://github.com/vikas-singh-kandari/ava.git
+cd ava
+flutter pub get
+flutter run
